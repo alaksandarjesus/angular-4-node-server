@@ -41,3 +41,10 @@ Auto reload on update in build folder or node js folder. Need to manually reload
 **Leading Factor**
 
 This project folder is ready to upload directly to gcloud.
+
+**Dont forget to add in yaml file in case used in gcloud**
+
+    skip_files:
+         -client
+
+
