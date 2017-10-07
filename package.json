@@ -1,0 +1,33 @@
+{
+  "name": "clinical-application",
+  "description": "A simple application for doctors who run clinics and hospitals",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Alaksandar Jesus Gene",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node server/app.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
+  },
+  "cloud-repo-tools": {
+    "test": {
+      "app": {
+        "msg": "Hello, world!"
+      }
+    },
+    "requiresKeyFile": true,
+    "requiresProjectId": true
+  }
+}
