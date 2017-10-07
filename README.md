@@ -42,9 +42,15 @@ Auto reload on update in build folder or node js folder. Need to manually reload
 
 This project folder is ready to upload directly to gcloud.
 
-**Dont forget to add in yaml file in case used in gcloud**
+**I dont see any file in client**
 
-    skip_files:
-         -client
+Delete the client folder
+
+Open command prompt in root folder and run
+
+    ng new client
+
+
+
 
 
