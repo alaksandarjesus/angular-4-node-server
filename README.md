@@ -1,8 +1,11 @@
 **Ingredients**
+
 Angular 4 cli
 Node
 Gulp
+
 **How to start**
+
 Use git clone to make a copy of the project files into your local system.
 Open the project folder in command prompt and run the following commands
 
@@ -32,6 +35,7 @@ Open the project folder/client  in command prompt and run
 Now edit your angular files to get live updates.
 
 **Lagging Factor**
+
 Auto reload on update in build folder or node js folder. Need to manually reload the browser.
 
 **Leading Factor**
